@@ -1,0 +1,394 @@
+
+ 
+ 
+ 
+ body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    background-image: url(Twoimages/bg.jpg);
+ }
+
+
+/* navbar */
+/* margin  */
+.navbarlink {
+  margin-left: 0.5rem;
+}
+/* nav logo */
+.NavbarLogo {
+  padding-top: 1vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+/* nav link */
+.navbarlink:hover {
+  font-size: larger;
+}
+/* nav search */
+.navbarSearch {
+  border: none;
+  /* outline: none; */
+  border-bottom: 0.5vh solid;
+  border-bottom-color: black;
+  background-color: inherit;
+}
+.navbarSearch::placeholder {
+  color: #000;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+/* button styling */
+.btn-outline-success1 {
+  color: #000000;
+  border-color: #000000;
+}
+/* button hover styling */
+.btn-outline-success1:hover {
+  color: #000;
+  background-color: #000000;
+  border-color: #000000;
+}
+.btn-outline-success {
+  color: #000000;
+  border-color: #000000;
+}
+/* button hover styling */
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+/* login icon */
+.navlogin {
+  padding-left: 1vw;
+  padding-right: 2vw;
+  font-size: 5vh;
+}
+/* navbar */
+
+
+
+
+
+ 
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card{
+    background-color: white;
+    border-bottom: 2px solid red;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px black;
+}
+ h2{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+ }
+
+
+del{
+    color: red;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+
+
+.bga{
+    width: 200px;
+    height: 200px;
+    background-image: url(Twoimages/13-13.jpg_.webp);
+    background-size: cover;
+}
+
+
+.bga:hover{
+    background-image: url(Twoimages/1313.jpg_.webp);
+    transition: 0.8s;
+       }
+
+.bgb{
+    width: 200px;
+    height: 200px;
+    background-image: url(Twoimages/1414.webp);
+    background-size: cover;
+}
+
+ .bgb:hover{
+    background-image: url(Twoimages/14-14.jpg_720x720q80.jpg_.webp);
+    transition: 0.8s;
+ }
+
+ .bgc{
+    width: 200px;
+    height: 200px;
+    background-image: url(Twoimages/1515.webp);
+    background-size: cover;
+}
+.bgc:hover{
+    background-image: url(Twoimages/15-15.webp);
+    transition: 0.8s;
+ }
+
+
+ .bgd{
+    width: 200px;
+    height: 200px;
+    background-image: url(Twoimages/2-2Sports-Sneakers-for-men.jpg_.webp);
+    background-size: cover;
+}
+.bgd:hover{
+    background-image: url(Twoimages/2-2-Sports-Sneakers-for-men.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+ .bge{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/7-7Walking-Shoes-For-Men.jpg_.webp);
+    background-size: cover;
+}
+.bge:hover{
+    background-image: url(Twoimages/7-7-Walking-Shoes-For-Men.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+
+ .bgf{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/8-8White-sneakers.jpg_.webp);
+    background-size: cover;
+}
+.bgf:hover{
+    background-image: url(Twoimages/8-8-White-sneakers.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+
+ .bgg{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/6-6Walking-Shoes-For-Men.jpg_.webp);
+    background-size: cover;
+}
+.bgg:hover{
+    background-image: url(Twoimages/6-6Walking-Shoes-For-Men.jpg_720x720q80.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+ .bgh{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/5-5-Walking-Shoes-For-Men.jpg_.webp);
+    background-size: cover;
+}
+.bgh:hover{
+    background-image: url(Twoimages/5-5.jpg_720x720q80.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+ .bgi{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/1010.webp);
+    background-size: cover;
+}
+.bgi:hover{
+    background-image: url(Twoimages/10-10.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+ .bgj{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/11-Sports-Sneakers-for-men.jpg_.webp);
+    background-size: cover;
+}
+.bgj:hover{
+    background-image: url(Twoimages/1-1-Sports-Sneakers-for-men.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+ .bgk{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/11-11.jpg_720x720q80.jpg_.webp);
+    background-size: cover;
+}
+.bgk:hover{
+    background-image: url(Twoimages/1111.jpg_720x720q80.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+ .bgl{
+    height: 200px;
+    width: 200px;
+    background-image: url(Twoimages/13-13.jpg_.webp);
+    background-size: cover;
+}
+.bgl:hover{
+    background-image: url(Twoimages/1313.jpg_.webp);
+    transition: 0.8s;
+ }
+
+
+
+
+
+
+ .ubaid{
+    color: wheat;
+    margin-top: 10px;
+    background-color: #C31327;
+    padding: 5px;
+}
+
+.ubaid>p{
+  text-align: center;   
+  margin: 0;
+  font-weight: 500;
+}
+#para{
+    font-weight: 300;
+    font-style: oblique;
+    flex-wrap: wrap;
+}
+
+
+
+/* footer */
+.footer-clean {
+  margin-top: 0 !important;
+  padding: 50px 0;
+  background-color: #767676;
+  color: #ffffff;
+  font-weight: bold;
+}
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+.footer-clean .item.social {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.footerLinks {
+  font-size: 0.9rem;
+}
+.footerli {
+  margin-bottom: 1rem;
+}
+
+/* icons footer link */
+.fa-instagram:hover {
+  color: #1da1f2 !important ;
+}
+.fa-twitter:hover {
+  color: #1da1f2 !important;
+}
+.fa-facebook:hover {
+  color: #1da1f2 !important;
+}
+.footer-clean {
+  margin-top: 20px;
+}

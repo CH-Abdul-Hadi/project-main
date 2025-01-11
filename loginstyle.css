@@ -1,0 +1,55 @@
+/* input feild */
+.input_area {
+    /* background: rgb(255, 255, 255); */
+    border: none;
+    outline: none;
+}
+/* userarea */
+.username{
+    border-bottom: solid rgb(163, 162, 162);
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+/* inputfield styling */
+#field{
+    margin-top: 7px;
+}
+/* password area */
+.password{
+    border-bottom: solid rgb(146, 145, 145);
+}
+/* forget password area  */
+#forget {
+    text-align: right;
+    margin-top: 6px;
+}
+
+/* link ki styling khatam ki hai */
+.link {
+    text-decoration: none;
+    color: black;
+}
+/* login button ki styling hai */
+.login-btn{
+    text-align: center;
+    width: 7rem;
+    /* height: 30px; */
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    /* sir ye apple nahi ho raha */
+    /* background: linear-gradient(#73bcf0, #c674b4, #bb5af0 #9f5fdf); */
+    background: linear-gradient(100deg,#73bcf0, #9f5fdf);
+}
+/* signup ko center ma kia hai */
+.sign{
+    text-align: center;
+    font-weight: 9px;
+}
+/* icon area hai */
+.icons{
+    text-align: center;
+    margin: 10px;  
+}
