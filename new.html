@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./loginstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <!-- name logo area -->
+          <a class="navbar-brand NavbarLogo" href="./index.html">Alpha Coders</a>
+          <!-- no idea what its for -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- list -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- home -->
+              <li class="nav-item navbarlink">
+                <a class="nav-link active" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <!-- new -->
+              <li class="nav-item navbarlink">
+                <a class="nav-link" href="./new.html">New</a>
+              </li>
+              <!-- men -->
+              <li class="nav-item navbarlink">
+                <a class="nav-link" href="./men.html">men</a>
+              </li>
+              <!-- women -->
+              <li class="nav-item navbarlink">
+                <a class="nav-link" href="./women.html">Women</a>
+              </li>
+              <!-- our story -->
+              <li class="nav-item navbarlink">
+                <a class="nav-link" href="./ourstory.html">Our Story</a>
+              </li>
+            </ul>
+  
+            <form class="d-flex">
+              <input
+                class="form-control me-2 navbarSearch"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+  
+            <ul class="navbar-nav navlogin p-0">
+              <!-- login -->
+              <li class="nav-item navbarlink pl-2">
+                <button
+                  type="button"
+                  class="btn btn-primary bg-light btn-outline-success1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="fa-solid fa-user text-dark"></i>
+                </button>
+              </li>
+              <!-- cart -->
+              <li class="nav-item navbarlink pl-2">
+                <button
+                  class="btn btn-primary bg-light btn-outline-success1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <i class="fa-solid fa-cart-shopping"> </i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+    <div id="top">
+        <div id="filter">
+            <h4>Show filters</h4>
+            <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/sorting-answers.png"
+                alt="sorting-answers" />
+        </div>
+        <h1 id="Newest">Newest Arrivals <span>87 results</span></h1>
+
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <img width="20" height="20" src="https://img.icons8.com/badges/48/down.png" alt="down" />
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Best Match</a>
+                <a href="#">Price: Low to High</a>
+                <a href="#">Price: High to Low</a>
+                <a href="#">Newest Arriva</a>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+
+
+
+    <div class="row">
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-Darkbrown-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-Darkbrown-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+
+
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-OliveMulti-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-OliveMulti-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-Cognac-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-Cognac-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-DarkBrown-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-DarkBrown-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-Navy-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-Navy-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-Burgundy-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-Burgundy-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-Nero-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-Nero-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Ironside-Chocolate-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Ironside-Chocolate-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Ironside-Taupe-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Ironside-Taupe-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+
+
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-OliveMulti-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-OliveMulti-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-Cognac-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-Cognac-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-DarkBrown-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-DarkBrown-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-CorsaDriver-Navy-01_Web.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-CorsaDriver-Navy-02_Web.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-Burgundy-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-Burgundy-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Charlie-Darkbrown-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Charlie-Darkbrown-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="cards">
+                <div class="card">
+                    <div class="wrapper">
+                        <img src="./img/GREATS-Mens-Ironside-Chocolate-Angle-01.jpg" class="cover-image" />
+                    </div>
+                    <img src="./img/GREATS-Mens-Ironside-Chocolate-Angle-02.jpg" class="character" />
+                </div>
+                <p>Men's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                <p> Triple Black</p>
+                <button
+                class="btn btn-primary bg-light btn-outline-success1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="fa-solid fa-cart-shopping"> </i>
+              </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="btn">
+
+        <h4>Load More Results</h4>
+    </div>
+
+    <br><br><br>
+
+
+    <!-- footer -->
+    <div class="footer-clean">
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./men.html">Men</a></li>
+                <li><a href="./new.html">new</a></li>
+                <li><a href="./women.html">women</a></li>
+                <li><a href="./ourstory.html">our story</a></li>
+                <!-- <li><a href="#">Hosting</a></li> -->
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="./team.html">Team</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>contact us</h3>
+              <ul>
+                <li class="footerli">
+                  <h4 class="footerLinks">Email us</h4>
+                  <a href="mailto:sabdulhadi016@gmail.com">@gmail.com</a>
+                </li>
+                <li class="footerli">
+                  <h4 class="footerLinks">Address</h4>
+                  <a
+                    href=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52932.95267022999!2d71.42428083945663!3d33.984582134438455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d9173963c0c2b7%3A0x9b29198791578d06!2sSMIT%20Peshawar%20Campus!5e0!3m2!1sen!2s!4v1736182992354!5m2!1sen!2s"
+                    >SMIT Peshawar</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 item social">
+              <a href="https://www.facebook.com/login"
+              ><i class="icon ion-social-facebook fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://x.com/i/flow/login?lang=en"
+              ><i class="icon ion-social-twitter fa-brands fa-twitter"></i
+            ></a>
+            <!-- <a href="#"><i class="icon ion-social-snapchat"></i></a> -->
+            <a href="https://www.instagram.com/accounts/login/?hl=en"
+              ><i class="icon ion-social-instagram fa-brands fa-instagram"></i
+            ></a>
+              <p class="copyright">@alphacoders © 2024</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  
+      <!-- modal login -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <!-- username area -->
+                <div class="username">
+                    <label for="username" id="username"><span class="text">Username</span></label><br />
+                    <div id="field">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="input_area" name="username" type="text" placeholder="Type your username" /><br />
+                    </div>
+                </div>
+              
+                <!-- password area -->
+                <div class="password">
+                    <label for="password"  id="password" > <span class="text">Password </span> </label><br />
+                    <div id="field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="Type your password" class="input_area" />
+                </div>
+                </div>
+               
+                <!-- forget -->
+                <a href="" class="link">
+                    <p id="forget"><span class="text">Forget password</span></p>
+                </a>
+                
+                <!-- login -->
+                <!-- <input class="login-btn text-center" type="submit" value="Login" /> <br /> -->
+               
+                <!-- icons -->
+                <p class="sign">or sign Up using</p>
+            
+            <div class="icons">
+              <a href="https://www.facebook.com/login"
+              ><i class="icon ion-social-facebook fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"
+            ><i class="icon ion-social-instagram fa-brands fa-instagram"></i
+          ></a>
+                <a href="https://x.com/i/flow/login?lang=en"
+                ><i class="icon ion-social-twitter fa-brands fa-twitter"></i
+              ></a>
+            </div>
+    
+            </div>
+            <div class="modal-footer">
+              <input type="submit" value="login" class="btn btn-primary login-btn text-dark"></input>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+  
+      <!-- cart -->
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            Welcome to Cart
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+  
+        <div class="offcanvas-body">
+          <div class="containermaincart">
+            <!-- product -->
+            <div class="productcart">
+                <h3>Product 1</h3>
+                <button onclick="addToCart('Product 1')">Add to Cart</button>
+            </div>
+            <div class="productcart">
+                <h3>Product 2</h3>
+                <button onclick="addToCart('Product 2')">Add to Cart</button>
+            </div>
+            <div class="productcart">
+                <h3>Product 3</h3>
+                <button onclick="addToCart('Product 3')">Add to Cart</button>
+            </div>
+            <!-- cart area -->
+            <div class="cart">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items">
+                    <!-- Cart items will appear here -->
+                </ul>
+            </div>
+            <!-- check out -->
+            <div class="productcart checkout">
+                <button>checkout</button>
+            </div>
+        </div>
+    
+        </div>
+      </div>
+  
+
+</body>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./cartjs.js"></script>
+
+</html>
