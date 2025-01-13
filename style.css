@@ -207,7 +207,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Ensures spacing between children */
-  align-items: center;
+  /* align-items: center; */
   border: 2px solid rgb(222, 222, 222);
   background-color: rgba(222, 222, 222, 0.562);
   width: 15rem; /* Increased the width of the cards */
